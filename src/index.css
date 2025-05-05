@@ -22,6 +22,15 @@
   );
 }
 
+@keyframes rotate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 :root {
   --primary-400: #080808;
   --primary-300: #0d0d0d;
