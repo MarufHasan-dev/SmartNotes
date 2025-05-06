@@ -30,17 +30,42 @@ function App() {
         <Hero />
       </Header>
       <Logos />
-      <Testimonial></Testimonial>
+      <Testimonial
+        quote="The real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever."
+        author="Sarah Johnson"
+        company="TechSavvy Solutions"
+      />
       <Features />
-      <Testimonial></Testimonial>
+      <Testimonial
+        quote="The real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever."
+        author="Sarah Johnson"
+        company="TechSavvy Solutions"
+      />
       <Video />
-      <Testimonial></Testimonial>
+      <Testimonial
+        quote="The real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever."
+        author="Sarah Johnson"
+        company="TechSavvy Solutions"
+      />
       <Pricing />
-      <Testimonial></Testimonial>
+      <Testimonial
+        quote="The real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever."
+        author="Sarah Johnson"
+        company="TechSavvy Solutions"
+      />
       <FAQ>
         <Accordion />
       </FAQ>
-      <Testimonial></Testimonial>
+      <Testimonial
+        quote="The real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever."
+        author="Sarah Johnson"
+        company="TechSavvy Solutions"
+      />
       <CTA />
       <Footer />
     </Page>
