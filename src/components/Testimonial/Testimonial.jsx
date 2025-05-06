@@ -14,7 +14,7 @@ function Testimonial({ quote, author, company }) {
           <p className="text-primary-200">{company}</p>
         </div>
         <img
-          className="absolute top-0 left-0"
+          className="absolute top-0 left-0 w-[38px] h-6"
           src={doubleQuote}
           alt="double qoute"
         />
