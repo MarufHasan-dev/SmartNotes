@@ -14,22 +14,31 @@ function Navigation() {
       </div>
       <ul className="navigation_link-section m-0 p-0 flex items-center gap-x-[56px]">
         <li>
-          <a href="" className="text-reg navigation_link text-primary-100">
+          <a
+            href=""
+            className="text-reg navigation_link text-primary-100 hover:text-secondary-200 transition-colors"
+          >
             Features
           </a>
         </li>
         <li>
-          <a href="" className="text-reg navigation_link text-primary-100">
+          <a
+            href=""
+            className="text-reg navigation_link text-primary-100 hover:text-secondary-200 transition-colors"
+          >
             Pricing
           </a>
         </li>
         <li>
-          <a href="" className="text-reg navigation_link text-primary-100">
+          <a
+            href=""
+            className="text-reg navigation_link text-primary-100 hover:text-secondary-200 transition-colors"
+          >
             Support
           </a>
         </li>
       </ul>
-      <button className="text-reg navigation_cta w-[167px] h-[56px] flex justify-center items-center gap-x-2 bg-linear-25 from-[rgba(1,115,115,1)] to-[rgba(170,217,209,1)] text-primary-400 rounded-lg cursor-pointer hover:scale-102 transition-transform ease-in-out duration-200">
+      <button className="text-reg navigation_cta w-[167px] h-[56px] flex justify-center items-center gap-x-2 bg-linear-25 from-[rgba(1,115,115,1)] to-[rgba(170,217,209,1)] text-primary-400 rounded-lg cursor-pointer hover:scale-105 transition-transform ease-in-out duration-200">
         Get Started
         <img
           src={arrow}

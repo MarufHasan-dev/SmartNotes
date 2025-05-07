@@ -12,8 +12,6 @@ function Pricing() {
       : setPlanPeriod("/ monthly");
   }
 
-  console.log(planPeriod);
-
   return (
     <section className="py-24">
       <div className="text-center">
@@ -51,9 +49,9 @@ function Pricing() {
           Save 25%
         </span>
       </div>
-      <div className="felx flex-col gap-10">
+      <div className="flex gap-10 justify-center">
         {pricingData.map((tile, i) => {
-          return <PricingTile {...tile} key={i} />;
+          return <PricingTile {...tile} planPeriod={planPeriod} key={i} />;
         })}
       </div>
     </section>
