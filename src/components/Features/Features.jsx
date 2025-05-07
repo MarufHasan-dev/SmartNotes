@@ -8,7 +8,7 @@ function Features() {
       <div className="text-center pb-11">
         <h2 className="font-bold text-accent text-5xl font-[DM_Sans] leading-[120%] mb-6 text-center">
           Discover the Power of{" "}
-          <span className="text-transparent bg-clip-text bg-linear-86 from-secondary-100 to-secondary-300">
+          <span className="text-transparent bg-clip-text bg-linear-86 to-secondary-100 from-secondary-300">
             SmartNotes
           </span>
         </h2>
