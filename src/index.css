@@ -22,15 +22,6 @@
   );
 }
 
-@keyframes rotate {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
 :root {
   --primary-400: #080808;
   --primary-300: #0d0d0d;
@@ -50,12 +41,6 @@
     rgba(1, 115, 115, 1) 0%,
     rgba(170, 217, 209, 1) 100%
   );
-}
-
-.body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--primary-400);
 }
 
 .text-large {
