@@ -5,7 +5,7 @@ import arrow from "../../assets/arrow.svg";
 
 function Navigation() {
   return (
-    <nav className="navigation py-[24px] px-[96px] flex box-border border-b border-solid border-[rgba(4,140,129,0.3)] justify-between">
+    <nav className="mx-auto max-w-[1440px] navigation py-[24px] px-[96px] flex box-border justify-between">
       <div className="navigation_logo-section flex items-center gap-x-2 select-none">
         <img src={logo} alt="logo" className="navigation_logo  " />
         <h3 className="navigation_name font-[DM_Sans] font-bold leading-[140%] text-2xl text-primary-100 m-0">

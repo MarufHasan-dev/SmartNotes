@@ -1,4 +1,3 @@
-import React from "react";
 import check from "../../assets/check.png";
 import LightArrow from "../../assets/colored-arrow.svg";
 import DarkArrow from "../../assets/arrow.svg";
