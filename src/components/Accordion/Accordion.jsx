@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Accordion.css";
 import AccordionItem from "../AccordionItem/AccordionItem";
 import { faqItems } from "../../utils/constants";
 
