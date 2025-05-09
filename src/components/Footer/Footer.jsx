@@ -194,16 +194,28 @@ function Footer() {
             className="flex
           flex-row gap-2.5"
           >
-            <a href="#">
+            <a
+              className="hover:scale-110 duration-250 ease-in-out transition-transform"
+              href="#"
+            >
               <img className="w-10 h-10" src={facebook} alt="facebook" />
             </a>
-            <a href="#">
+            <a
+              className="hover:scale-110 duration-250 ease-in-out transition-transform"
+              href="#"
+            >
               <img className="w-10 h-10" src={linkedin} alt="linkedin" />
             </a>
-            <a href="#">
+            <a
+              className="hover:scale-110 duration-250 ease-in-out transition-transform"
+              href="#"
+            >
               <img className="w-10 h-10" src={twitter} alt="twitter" />
             </a>
-            <a href="#">
+            <a
+              className="hover:scale-110 duration-250 ease-in-out transition-transform"
+              href="#"
+            >
               <img className="w-10 h-10" src={youtube} alt="youtube" />
             </a>
           </div>
