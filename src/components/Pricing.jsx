@@ -12,7 +12,7 @@ function Pricing() {
   }
 
   return (
-    <section className="py-24">
+    <section id="pricing" className="py-24">
       <div className="text-center">
         <h2 className="font-bold text-accent text-5xl font-dm leading-[120%] mb-6 text-center">
           <span className="text-transparent bg-clip-text bg-linear-86 to-secondary-100 from-secondary-300">

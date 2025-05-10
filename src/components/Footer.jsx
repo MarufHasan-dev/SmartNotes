@@ -7,7 +7,10 @@ import arrow from "../assets/colored-arrow.svg";
 
 function Footer() {
   return (
-    <section className="flex flex-col gap-22 pt-20 border-t border-solid border-[rgba(4,140,129,0.3)] text-accent items-center">
+    <section
+      id="support"
+      className="flex flex-col gap-22 pt-20 border-t border-solid border-[rgba(4,140,129,0.3)] text-accent items-center"
+    >
       <div className="max-w-[1184px] px-4 w-full flex flex-row gap-25 justify-between items-center">
         <div className="flex flex-col justify-between h-40">
           <div className="flex flex-row gap-2 select-none">

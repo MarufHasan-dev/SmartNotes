@@ -2,7 +2,7 @@ import { features } from "../utils/constants";
 
 function Features() {
   return (
-    <section className="py-[70px]">
+    <section id="features" className="py-[70px]">
       <div className="text-center pb-11">
         <h2 className="font-bold text-accent text-5xl font-dm leading-[120%] mb-6 text-center">
           Discover the Power of{" "}
